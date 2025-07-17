@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: data_ingestion
+    schema: public
+    tables:
+      - name: medicine_dataset
